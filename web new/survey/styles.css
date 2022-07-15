@@ -1,3 +1,70 @@
-body{
-	margin: 0;
+body {
+	text-align: center;
+	font-family: 'Montserrat';
+	background-image:
+		linear-gradient(),
+		url('https://preview.redd.it/q0eqdwywum581.png?width=3840&format=png&auto=webp&s=8035ed3840b642f825aa3711f152c61e77f853c5');
+	background-color: darkgray;
+}
+
+label {
+	display: flex;
+	margin-top: 10px;
+	align-items: center;
+
+}
+
+input {
+	display: flex;
+
+	margin: auto;
+	width: 100%;
+}
+
+select {
+	display: flex;
+
+}
+
+form {
+	background-color: #fff;
+	max-width: 500px;
+	margin: 50px auto;
+	padding: 30px 20px;
+	box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+	text-align: center;
+	max-width: 500px;
+	margin: auto;
+	padding: 10px;
+
+}
+
+.form-control {
+	text-align: left;
+	margin-bottom: 25px;
+}
+
+.form-control label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.form-control input[type='radio'],
+.form-control input[type='checkbox'] {
+	display: inline-block;
+	width: auto;
+}
+
+.form-control input,
+.form-control select,
+.form-control textarea {
+	border: 1px solid #777;
+	border-radius: 2px;
+	font-family: inherit;
+	padding: 10px;
+	display: block;
+	width: 95%;
 }
