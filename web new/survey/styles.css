@@ -4,8 +4,13 @@ body {
 	background-image:
 		linear-gradient(),
 		url('https://preview.redd.it/q0eqdwywum581.png?width=3840&format=png&auto=webp&s=8035ed3840b642f825aa3711f152c61e77f853c5');
-	background-color: darkgray;
+	background: linear-gradient(
+		to right,
+     #B12C0C 20%, #CA836E 20% 25%, white 25% 75%, #CA836E 75% 80%, #B12C0C 80%
+
+	);
 }
+
 
 label {
 	display: flex;
@@ -27,7 +32,7 @@ select {
 }
 
 form {
-	background-color: #fff;
+	background-color: #815B61;
 	max-width: 500px;
 	margin: 50px auto;
 	padding: 30px 20px;

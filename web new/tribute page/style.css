@@ -1,0 +1,33 @@
+body {
+	text-align: center;
+	font-family: 'Montserrat';
+	
+	background: linear-gradient(
+		to right,
+     red 20%, black 20% 25%, white 25% 75%, black 75% 80%, red 80%
+
+	);
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#image{
+	max-width: 100%;
+	height: auto;
+	align-content: center;
+	
+	
+
+}
+
+#tribute-info {
+	text-align: center;
+	max-width: 500px;
+	margin: auto;
+	padding: 10px;
+
+}

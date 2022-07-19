@@ -12,15 +12,16 @@
 <body>
 	<div class="content">
 		<header class="header">
+			<img src="https://c.tenor.com/zGW3B-JOrNwAAAAC/klee-genshin.gif" height="50%" width="50%">
 			<h1 id="title">Klee Survey Form</h1>
-			<p id="description"></p>
+			<p id="description">Mm, new-bomb research complete! Now, let's get outta here before Jean finds out...</p>
 		</header>
 		<form id="survey-form">
 			<div class="form-control">
 				<label id="name-label">Name</label>
-				<input id="name" type="text" placeholder="Name" />
-				<label id="email-label">Email</label>
-				<input id="email" type="email" placeholder="Email" />
+				<input id="name" class="name" type="text" placeholder="Name" required />
+				<label id="email-label" class="email">Email</label>
+				<input id="email" type="email" placeholder="Email" required />
 				<label id="number-label">Number</label>
 				<input id="number" type="number" min="8" max="20" placeholder="Number" />
 			</div>
@@ -32,21 +33,23 @@
 					<option>none</option>
 				</select>
 			</div>
+			<label>Target :</label>
 			<div class="form-control">
-				<label><input type="radio" name="1" />1</label>
-				<label><input type="radio" name="2" />2</label>
-				<label><input type="radio" name="3" />3</label>
+				<label><input type="radio" name="1"  value="1" /> Jean</label>
+				<label><input type="radio" name="1" value="2" /> Inazuma</label>
+				<label><input type="radio" name="1" value="3" /> World</label>
 			</div>
+			<label> Artifact : </label>
 			<div class="form-control">
 
-				<label><input type="checkbox" value="1" />1</label>
-				<label><input type="checkbox" value="2" />2</label>
-				<label><input type="checkbox" value="3" />3</label>
+				<label><input type="checkbox" value="1" /> 4-set Crimson Witch of Pain</label>
+				<label><input type="checkbox" value="2" /> 2-set Crimson Witch of Pain</label>
+				<label><input type="checkbox" value="3" /> Any </label>
 			</div>
 			<div class="form-control">
 
 				<label>
-					test
+					Enter your target:
 
 					<textarea></textarea>
 				</label>
