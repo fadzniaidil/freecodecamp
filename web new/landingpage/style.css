@@ -3,20 +3,26 @@
 body{
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+	
 	font-family: 'Montserrat';
 }
 
 header{
 	
-	margin: 10px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	position: fixed;
+
 }
+
 
 nav{
 	margin: 10px;
+}
+#navbar{
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #nav-bar a{
@@ -44,8 +50,23 @@ ul li{
 	align-items: left;
 
 }
-@media screen and (max-width: 600px) {
+#htp{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+#formsec{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 10px;
+}
+
+@media (max-width: 600px) {
   body {
     background-color: white;
+    display: flex;
   }
 }
